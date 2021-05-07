@@ -1,0 +1,16 @@
+body{
+    background-color: black !important;
+    color: yellow !important;
+    font-size: 2rem !important;
+}
+nav{
+    background-color: black !important;
+    color: yellow !important;
+}
+.navbar-brand img{
+    background-color: white;
+}
+.container{
+    background-color: black !important;
+    color: yellow !important;
+  }

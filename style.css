@@ -38,3 +38,17 @@ a:not(.menu-link){
 p{
   text-align: justify;
 }
+body{
+  background-color:   #17252A;
+}
+.container{
+  color :  #FEFFFF;
+  background-color:#3aafa9;
+}
+.btn{
+  background-color:   #17252A;
+  color :  #FEFFFF;
+}
+a{
+  color :  #FEFFFF;
+}
