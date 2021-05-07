@@ -77,3 +77,6 @@ input[type="radio"]{
   background-color: black;
   color: white;
 }
+video{
+  width: 100%;
+}

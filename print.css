@@ -12,6 +12,10 @@
     nav,footer {display:none}		/* ne jelenjen meg a nav elem */
 
     img{ max-width: 500px; margin: auto;}
+
+    video {
+        width: 100%;
+    }
     
     a:after { content: " (" attr(href) ")";}  /* a linkek után jelenjen meg a href paraméter értéke*/
     
