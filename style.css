@@ -67,5 +67,10 @@ h1,h2 {
   font-family: 'Oswald', sans-serif;
 }
 .custom-radio{
-  background-color: #3B5998;
+  background-color: black;
+  color: white;
+}
+input[type="radio"]{
+  background-color: black;
+  color: white;
 }
