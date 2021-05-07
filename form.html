@@ -1,0 +1,140 @@
+<!-- xhtml oldal hol legyen?-->
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajánlat kérés - Schmidt Péter honlapja</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="screen">
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="print.css" media="print" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-light bg-light border d-print-none">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/profile.png" class="img-fluid" alt="">
+                      </a>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <div class="p-4">
+                        <div class="row">
+                            <div class="col-12 col-lg-3"><a href="index.html" class="p-2 m-2 menu-link">Főoldal</a></div>
+                            <div class="col-12 col-lg-3"><a href="mywork.html" class="p-2 m-2 menu-link">Munkáim</a></div>
+                            <div class="col-12 col-lg-3"><a href="form.html" class="p-2 m-2 menu-link">Ajánlat kérés</a></div>
+                            <div class="col-12 col-lg-3"><a href="aboutme.html" class="p-2 m-2 menu-link">Magamról</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">Ajánlat kérés</h1>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-12 col-md-9 col-lg-6 p-5 border">Töltse ki adataival és küldje el</div>
+            <div class="col-12 col-md-9 col-lg-6 bg-dark"></div>
+        </div>
+        <div class="row text-center">
+            <div class="col-12 col-md-9 col-lg-6 bg-dark"></div>
+            <div class="col-12 col-md-9 col-lg-6 p-5 border">(nem végleges)Ajánlat és egy konzultációra(weblapról) időpont lehetőségek</div>
+        </div>
+        <div class="row text-center">
+            <div class="col-12 col-md-9 col-lg-6 p-5 border">Visszaigazolás</div>
+            <div class="col-12 col-md-9 col-lg-6 bg-dark"></div>
+        </div>
+        <div class="row text-center justify-content-md-center">
+            <div class="col-1 col-md-3 col-lg-4"></div>
+            <div class="col-10 col-md-6 col-lg-4 col-md-auto">
+                <img src="assets/bubik.png" height="150" alt="24h belül válasz és az első konzultáció ingyenes" class="rounded mx-auto d-block img-fluid">
+            </div>
+            <div class="col-1 col-md-3 col-lg-4"></div>
+        </div>
+        <div class="row mt-4 mb-4">
+            <div class="col-12 text-center"><h2>Mit szeretne?</h2></div>
+        </div>
+        <div class="row">
+            <div class="col-12 mb-5">
+                <form action="mailto:schmidt.peti32@gmail.com" method="post" enctype="text/plain">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12 col-md-9 col-lg-4">
+                                    <label for="nev">Neve:</p>
+                                </div>
+                                <div class="col-12 col-md-9 col-lg-8">
+                                    <div class="form-group">
+                                        <input type="text" id="nev" class="form-control" placeholder="Neve" size="100" maxlength="100">
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-9 col-lg-4">
+                                    <label for="email">E-mail:</label>
+                                </div>
+                                <div class="col-12 col-md-9 col-lg-8">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email"  placeholder="E-mail címe" size="100" maxlength="100">
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-9 col-lg-4">
+                                    <label for="megrendelés">Megrendelés röviden</label>
+                                </div>
+                                <div class="col-12 col-md-9 col-lg-8">
+                                    <div class="form-group">
+                                        <textarea class="form-control" id="megrendelés" rows="3" placeholder="Megrendelésem röviden" maxlength="500"></textarea>
+                                      </div>
+                                </div>
+                            </div>
+                              <label for="customRadio1">Sürgős a megrendelés?</label>
+                              <div class="custom-control custom-radio ml-4">
+                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio1">Igen</label>
+                              </div>
+                              <div class="custom-control custom-radio ml-4">
+                                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio2">Nem</label>
+                              </div>
+                              <div class="custom-control custom-checkbox mt-3">
+                                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                <label class="custom-control-label" for="customCheck1">Szeretnék feliratkozni a hírlevélre.</label>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12 col-md-9 col-lg-6 text-center">
+                            <button class="btn btn-primary btn-block" type="submit">Elküldés</button>
+                        </div>
+                        <div class="col-12 col-md-9 col-lg-6 text-center">
+                            <button class="btn btn-dark btn-block" type="reset">Reset</button>
+                        </div>
+                    </div>
+                  </form>
+            </div>
+        </div>
+        <footer>
+            <div class="row p-4 border">
+                <div class="col-7"></div>
+                <div class="col-5 text-right">
+                    <a href="https://www.facebook.com/"><img src="assets/facebook.svg" width="30" height="30" alt="facebook ikonja" class="mr-2 footer-icon"></a>
+                    <a href="https://www.instagram.com/"><img src="assets/instagram.svg" width="30" height="30" alt="instagram ikonja" class="mr-2 footer-icon"></a>
+                    <a href="https://twitter.com/?lang=hu"><img src="assets/twitter.svg" width="30" height="30" alt="twitter ikonja" class="mr-2 footer-icon"></a>
+                    <a href="http://youtube.com/"> <img src="assets/youtube.svg" width="30" height="30" alt="youtube ikonja" class="mr-2 footer-icon"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>

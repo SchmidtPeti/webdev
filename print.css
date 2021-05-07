@@ -1,0 +1,17 @@
+
+    body {
+    font-family:'Times New Roman', Times, serif;  /* talpas betűtípus beállítása*/
+    margin:3cm;			/* margó megadás cm-ben*/
+    }
+    
+    content, row {
+        width:100%;		/* teljes szélességű blokkok legyenek */
+        padding:0;		/* kitöltés 0*/
+            }
+    
+    nav,footer {display:none}		/* ne jelenjen meg a nav elem */
+
+    img{ max-width: 500px; margin: auto;}
+    
+    a:after { content: " (" attr(href) ")";}  /* a linkek után jelenjen meg a href paraméter értéke*/
+    
