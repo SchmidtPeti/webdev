@@ -54,3 +54,7 @@ a, caption{
 }
 .kipozicional a {position:absolute; left:-9999px; background:#162020; color: white;}				/* kipozícionáljuk a képernyőről a blokkot */
 .kipozicional a:focus {position:static; background:#162020; color: white;}
+.navbar-brand img{
+  background-color: white;
+  padding: 1rem;
+}
