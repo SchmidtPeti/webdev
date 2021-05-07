@@ -49,6 +49,8 @@ body{
   background-color:   #17252A;
   color :  #FEFFFF;
 }
-a{
+a, caption{
   color :  #FEFFFF;
 }
+.kipozicional a {position:absolute; left:-9999px;}				/* kipozícionáljuk a képernyőről a blokkot */
+.kipozicional a:focus {position:static; background:#17252A}
