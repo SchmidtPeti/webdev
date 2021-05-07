@@ -35,11 +35,16 @@ a:not(.menu-link):visited{
 a:not(.menu-link){
   text-decoration: underline;
 }
+.menu-link{
+  font-size:1.3em;
+  float: left;
+}
 p{
   text-align: justify;
 }
 body{
   background-color:   #17252A;
+  font-family:Arial, Verdana, Helvetica, sans-serif;  /* betűtípus beállítás */
 }
 .container{
   color :  #FEFFFF;
@@ -57,4 +62,7 @@ a, caption{
 .navbar-brand img{
   background-color: white;
   padding: 1rem;
+}
+h1,h2 {
+  font-family: 'Oswald', sans-serif;
 }
