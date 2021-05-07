@@ -67,8 +67,12 @@ h1,h2 {
   font-family: 'Oswald', sans-serif;
 }
 .custom-radio{
-  background-color: black;
-  color: white;
+  background-color: rgb(199, 199, 199);
+  color: black;
+}
+.custom-checkbox{
+  background-color: rgb(199, 199, 199);
+  color: black;
 }
 input[type="radio"]{
   background-color: black;
