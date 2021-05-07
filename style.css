@@ -52,5 +52,5 @@ body{
 a, caption{
   color :  #FEFFFF;
 }
-.kipozicional a {position:absolute; left:-9999px;}				/* kipozícionáljuk a képernyőről a blokkot */
+.kipozicional a {position:absolute; left:-9999px; background:#162020; color: white;}				/* kipozícionáljuk a képernyőről a blokkot */
 .kipozicional a:focus {position:static; background:#162020; color: white;}
